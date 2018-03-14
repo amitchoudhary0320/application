@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular QuickStart</title>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <div class="dataBody">
+      <h1> NY	Times	Most	Popular	Articles</h1>
+
+  </div>
+  
+
+  <div class = "tableDiv">
+  <table class="table table-striped" [mfData]="userData" #mf="mfDataTable" [mfRowsOnPage]="5">
+    <thead>
+      
+  <tr>
+       <h1> Most View</h1>
+  </tr>
+  </thead>
+
+     
+  <tbody>
+     
+  <tr *ngFor="let item of userData">
+         
+      <td style="text-align: center">{{item.results[0].byline}}</td>
+	  <td style="text-align: center">{{item.results[0].adx_keywords}}</td>
+	  
+	  
+
+      
+      
+  </tr>
+  </tbody>
+  <tfoot>
+ 
+  </tfoot>
+  </table>
+  </div>
+    
+
+    
+    
+  </body>
+</html>

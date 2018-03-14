@@ -1,0 +1,45 @@
+.dataBody{
+
+    background-color: rgb(62, 95, 0);
+    height: 50px;
+    weight:200px;
+    color: rgb(136, 255, 0);
+    top:0px;
+}
+
+.body{
+    margin: 0 0 0 0 ;
+}
+
+.homeBody {
+    height: 90%;
+  }
+
+  .dataBody{
+
+    height: 50px;
+    width:100%;
+    color:black;
+}
+
+.standerd-button{
+    height: 40px;
+    width:20px;
+	background-color: rgb(63,81,181);
+	/* color: #fff; */
+}
+
+.tableDiv{
+    height: 600px;
+    width:600px;
+	background-color: #fff;
+    margin-left: 180px;
+    
+}
+
+.tableSize{
+    height: 200px;
+    width:200px;
+    margin-left: 180px;
+    
+}

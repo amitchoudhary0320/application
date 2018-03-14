@@ -1,0 +1,16 @@
+.dataBody{
+
+    background-color: rgb(62, 95, 0);
+    height: 50px;
+    weight:200px;
+    color: rgb(136, 255, 0);
+    top:0px;
+}
+
+.body{
+    margin: 0 0 0 0 ;
+}
+
+.homeBody {
+    height: 90%;
+  }
